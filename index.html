@@ -85,7 +85,7 @@
                 <p>ALDO</p>
                 <div class="cost_cart">
                 <h3>$500</h3>
-                <Button class="btn">Add to Cart</Button>
+                <button class="btn" onclick="redirectToCart()">Add to Cart</button>
                 </div>
             </div>
 
@@ -106,7 +106,7 @@
                 <p>ALDO</p>
                 <div class="cost_cart">
                 <h3>$500</h3>
-                <Button class="btn">Add to Cart</Button>
+                <button class="btn" onclick="redirectToCart()">Add to Cart</button>
             </div>
             </div>
         </div>
@@ -126,11 +126,11 @@
                 <p>ALDO</p>
                 <div class="cost_cart">
                 <h3>$500</h3>
-                <Button class="btn">Add to Cart</Button>
+                <button class="btn" onclick="redirectToCart()">Add to Cart</button>
                 </div>
             </div>
 
-        </div><br>
+        </div>
       <div>
     <div class="All_btn">
         <button>Men</button>
@@ -302,5 +302,12 @@
     </div>
   </div> 
 </footer>
+
+
+    <script>
+        function redirectToCart() {
+            window.location.href = 'Add_to_Cart.html';
+        }
+    </script>
     </body>
 </html>
