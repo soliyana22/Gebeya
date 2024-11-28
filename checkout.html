@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="checkout.css">
 </head>
 <body>
-    
   <header class="head1">
     <div class="navbar">
         <div class="logo">ገ</div>
@@ -48,7 +47,7 @@
             <span>EN/Currency</span>
         </div>
     </div>
-</header>
+  </header>
   <div class="container">
     <div class="row">
       <div class="col-md-8">
@@ -98,7 +97,7 @@
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="radio" name="paymentMethod" id="bankTransfer">
-                <label class="form-check-label" for="bankTransfer">Bank Transfer</label>
+                <label class="form-check-label">Bank Transfer</label>
               </div>
             </div>
             <div class="mb-3">
@@ -135,7 +134,7 @@
             <li>Shipping: $10</li>
             <li class="total">Total: $820</li>
           </ul>
-          <button class="btn place-order-btn w-100">Place Order</button>
+          <button class="btn place-order-btn w-100" id="placeOrderButton">Place Order</button>
         </div>
       </div>
     </div>
@@ -146,7 +145,6 @@
         <h3>About Us</h3>
         <h5>News & Blog</h5>
         <h5>Location</h5>
-
     </div>
     <div class="products">
         <h3>Products</h3>
@@ -162,5 +160,13 @@
     </div>
   </div> 
 </footer>
+
+<script>
+  document.getElementById("placeOrderButton").addEventListener("click", function() {
+    alert("Your order has been placed successfully!");
+    window.location.href = "index.html";
+  });
+</script>
+
 </body>
 </html>

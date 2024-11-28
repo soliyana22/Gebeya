@@ -17,7 +17,8 @@ body {
     margin: 0;
     padding: 0;
     background: #F6F6F6;
-    gap:10px;
+   
+    
 }
 .container{
     display:flex;
@@ -420,7 +421,7 @@ main{
 }
 .our_curated {
     position: relative; 
-    width: 1200px;
+    width: 1220px;
     height: 502px;
     background: #D0D0D0;
     border-radius: 24px;
@@ -447,7 +448,7 @@ main{
 .our_text h2 {
     font-family: Poppins;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 600px;
     line-height: 60px;
     letter-spacing: 0.04em;
     color: #9847EF;
@@ -589,6 +590,7 @@ main{
     text-decoration-skip-ink: none;
     margin-left:100px;
     margin-top: 50px;
+    overflow: hidden;
 }
 
 .arrow-left, .arrow-right {
@@ -724,10 +726,7 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 
 }
-.browse_container {
-    margin-bottom: 0;
-    border-radius: 10px;
-}
+
 .browse_container{
     display: flex;
     margin-top:20px;
