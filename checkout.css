@@ -92,17 +92,17 @@ footer {
     display: flex;
     justify-content: center;
     color: white;
-    margin: 0; /* Ensure no extra margins */
-    padding: 0; /* Remove padding if unnecessary */
+    margin: 0;
+    padding: 0; 
 }
 .browse_container {
-    margin-bottom: 0; /* Ensure no extra space */
+    margin-bottom: 0;
     padding-bottom: 0;
     display: flex;
 }
 
 .All_card {
-    margin-bottom: 0; /* Remove unnecessary bottom margin */
+    margin-bottom: 0; 
 }
         
 
