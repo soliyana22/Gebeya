@@ -46,8 +46,8 @@ body {
 .all_footer{
     display:flex;
     color:white;
-    margin-left: 1000px;
-    gap:20px;
+    margin-left: 400px;
+
 }
 .about,.products,.discover{
  width: 147px;
@@ -56,6 +56,7 @@ top: 101px;
 left: 911px;
 gap: 8px;
 opacity: 0px;
+margin:20px;
 }
 .about{
     left:911px;
@@ -94,6 +95,7 @@ footer {
     color: white;
     margin: 0;
     padding: 0; 
+    
 }
 .browse_container {
     margin-bottom: 0;

@@ -167,19 +167,22 @@ text-decoration-skip-ink: none;
     
     
 }
-.inner i{
-    margin-right:310px;
-}
 .col-md-4-first .outer{
      margin:0.05px;
      border-radius: 10px;
     
 }
+.outer{
+    padding-left:20px;
+    padding-right:20px;
+}
 .outer button{
-    margin-right:280px;
+    margin-right:180px;
     display:inline-block;
     border:black solid 1px;
-    border-radius: 30%;
+    border-radius: 20px;
+    height:30px;
+    width:70px;
 }
 .outer p{
    display:inline-block;
@@ -192,7 +195,6 @@ text-decoration-skip-ink: none;
  width:100px;
  height:50px;
  border-radius: 15px;
-
 color:white;
 font-weight: bold;
 border:white solid 1px;
@@ -201,7 +203,8 @@ border:white solid 1px;
     display:flex;
 }
 .cost_cart .btn{
-    margin-left:250px;
+    margin-left:200px;
+    margin-top:10px;
 }
 
 #img_tshirt{
@@ -243,7 +246,8 @@ margin:20px;
     margin-left: 30px;
     border-radius: 10px;
     padding:10px;
-    width:30%;
+    width:400px;
+    max-width:430px;
 }
 
 
@@ -263,7 +267,7 @@ margin:20px;
 
 .inner button {
     display: block;
-    margin: 10px auto;
+    margin-left: 250px;
     padding: 10px 20px;
     border-radius: 20px;
     border: 2px solid #ccc;
@@ -272,14 +276,15 @@ margin:20px;
 .All_btn {
     display: flex;
     justify-content: center; /* Center buttons */
-    gap: 24px;
-    margin-top: 20px; /* Space between image section and buttons */
+    gap: 30px;
+    margin-top: 50px; /* Space between image section and buttons */
     opacity: 1; /* Make buttons visible */
+    margin-bottom: 30px;
 }
 
 
 .All_btn button {
-    width: 200px;
+    width: 180px;
     height: 50px;
     border-radius: 30px;
     border: 2px solid #ccc;
@@ -324,7 +329,8 @@ margin:20px;
     flex-wrap: nowrap; 
     gap: 20px; 
     justify-content: center; 
-    margin: 30px 100px; 
+    margin: 30px 100px;
+    width:80%; 
 }
 
 
@@ -383,18 +389,17 @@ main{
 }
 .main_button button{
     width: 164px;
-    height: 32px;
-    top: 2396px;
-    left: 674px;
+    height: 50px;
+  
     padding: 4px 8px 4px 8px;
     gap: 6px;
-    border-radius: 8px 0px 0px 0px;
+    border-radius: 8px;
     opacity: 0.8px;
     background: #882BECF2;
     color:white;
     margin-left:600px;
-    margin-top:100px;
-    margin-bottom: 20px;;
+    margin-top:20px;
+    margin-bottom: 100px;;
   
 
 
@@ -415,7 +420,7 @@ main{
 }
 .our_curated {
     position: relative; 
-    width: 1351px;
+    width: 1200px;
     height: 502px;
     background: #D0D0D0;
     border-radius: 24px;
@@ -425,7 +430,7 @@ main{
     align-items: flex-start;
     justify-content: flex-start;
     overflow: hidden; 
-    margin-left:40px;
+    margin-left:100px;
 }
 
 .our_img img {
@@ -572,8 +577,6 @@ main{
 #browse{
     width: 450px;
     height: 60px;
-    top: 3163px;
-    left: 80px;
     gap: 0px;
     opacity: 0px;
     font-family: Poppins;
@@ -585,12 +588,12 @@ main{
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin-left:100px;
-    
+    margin-top: 50px;
 }
 
 .arrow-left, .arrow-right {
-    width: 80px;
-    height: 40px;
+    width:40px;
+    height: 30px;
     background-color: orange;
     border-radius: 20px;
     border: none;
@@ -599,6 +602,7 @@ main{
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    gap:10px;
   }
   
   .arrow-left {
@@ -613,29 +617,39 @@ main{
     display:flex;
   }
 .arrow{
-    margin-top:10px;
-    margin-left: 700px;
+    margin-top:70px;
+    margin-left:680px;
 
 }
 
 .browse{
-width: 300px;
-height:400px;
+max-width: 300px;
+height:250px;
 top: 3287px;
 left: 80px;
 gap: 24px;
 opacity: 0px;
-border-radius:10px;
-background-color:#F2F2F2; 
-margin-left:25px;
-
+border-radius:30px;
+background-color: #F2F2F2;
+width:80%;
+margin-left:10px;
+margin-right: 10px;
 }
 .browse_text{
     width: 270px;
     height: 76px;
-    gap: 4px;
+    margin-top: 30px;
     opacity: 0px;
     
+}
+
+.browse img{
+    width:200px;
+    height:150px;
+    margin-left:60px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
 }
 .browse_text h2{
 width: 270px;
@@ -662,13 +676,8 @@ text-decoration-skip-ink: none;
 margin:10px;
 }
 .browse img{
-width: 243px;
-height: 247px;
-margin-left:20px;
-margin-top: 20px;
-gap: 0px;
-opacity: 0px;
-background: #F2F2F2;
+
+
 
 }
 
