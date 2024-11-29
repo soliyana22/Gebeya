@@ -153,7 +153,7 @@ text-decoration-skip-ink: none;
     left: 80px;
     gap: 0px;
     opacity: 0px;
-    border:black 1px solid;
+    border:#ddd9d9 1px solid;
 
 }
 .row-first{
@@ -744,43 +744,5 @@ footer {
         opacity: 0px;
         background: #882BEC;
 }
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-    }
 
-    .search input {
-        width: 100%;
-    }
-
-    .second .row {
-        flex-direction: column;
-    }
-
-    .col-md-4 {
-        flex: 1 1 100%;
-    }
-
-    .browse_container {
-        flex-direction: column;
-    }
-}
-
-@media (min-width: 1200px) {
-    .navbar {
-        padding: 20px 50px;
-    }
-
-    .search input {
-        width: 250px;
-    }
-
-    .second .row {
-        gap: 40px;
-    }
-
-    .col-md-4 {
-        flex: 1 1 25%;
-    }
-}
     
